@@ -1,0 +1,57 @@
+.body{
+  background-color: #2a2a2a;
+}
+
+.mainBox {
+  background-color: #fff;
+  font-size: 18px;
+  padding: 50px;
+  max-width: 800px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.titleLgpd {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.containerText {
+  margin: 0 auto;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+.tab {
+  margin-bottom: 20px;
+}
+
+.paragrafo {
+  margin: 10px 0;
+}
+
+.column {
+  justify-content: center;
+  display: flex !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainBox {
+    margin: 150px 50px;
+    border-radius: 7px;
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .mainBox {
+    max-width: 70%;
+    font-size: 18px;
+  }
+}
+
+#Content {
+  padding: 0;
+}
